@@ -168,7 +168,7 @@ fedora-dependencies:
 	dnf install procps-ng-devel gmp-devel cmake g++ python3-pip
 
 ubuntu-dependencies:
-	apt-get install cmake make g++ libgmp-dev libprocps-dev python3-pip
+	apt-get -y install cmake make g++ libgmp-dev libprocps-dev python3-pip
 
 mac-dependencies:
 	brew install python3 pkg-config cmake gmp || true
